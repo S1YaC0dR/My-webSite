@@ -1,0 +1,54 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px
+}
+body {
+    margin-left: 10px;
+    margin-right: 10px
+}
+header {
+    height: 25%;
+}
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+/*put a focus on one of the button elements*/
+    width: 700px;
+}
+.flex-container2 {
+    height: 65vh;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    object-fit: contain;
+    background-image: linear-gradient(180deg, #f5fdfe, #fff);
+}
+.flex-container3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: left;
+    height: 45vh;
+    margin: 50px;
+}
+.child {
+    flex: 1;
+    background-color: #f1f1f1;
+    flex-wrap: wrap;
+}
+.bootstrap {
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-transform: Capitalize;
+}
+.para {
+    font-weight: 450;
+    font-size: 1rem;
+}

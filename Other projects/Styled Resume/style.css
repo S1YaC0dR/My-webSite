@@ -1,0 +1,69 @@
+/*Resume Colors:
+a) #AA5454
+b) #F3CCCC
+c) #0808088*/
+html {
+    margin: 0px;
+}
+body {
+    margin: 0;
+}
+.Main-div {
+    display: block;
+    background-color: #AA5454;
+    width: 200px;
+    float: left;
+    height: 830px;
+    margin-top: -25px;
+}
+img {
+    height:100%;
+    width:100%;
+    border-radius: 100%;
+}
+.image {
+    width: 150px; 
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;   
+    top:20px;
+    object-fit: fill;
+} 
+h4.heading {
+    background-color: #AA5454;
+    width: 500px;
+    color: white;
+}  
+h4.contact {
+    margin-top: 50px;
+    background-color: #F3CCCC;
+    padding-left: 15px;
+    width: 185px;
+}
+h4.skills {
+    background-color: #F3CCCC;
+    padding-left: 15px;
+    width: 185px;
+}
+.number, .email, .linkedin {
+    color:white;
+    margin-left: 35px;
+}
+.first-list {
+    list-style: square;
+    color: white;
+    font-weight: 100px
+}
+.Main-heading {
+    text-align: center;
+    width: 800px;
+    margin-left: 350px;
+    margin-bottom: 0px;
+}
+.second, .third, .fourth {
+    margin-left: 205px;
+
+}
+
